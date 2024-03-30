@@ -30,6 +30,7 @@ public class Main {
         //Attack
         Instigator.Attack();
         Tube.Attack();
+        Sickle.eatRandomItem();
     }
 
     private static void addPokemonToTeam(Pokemon pokemon, List<Pokemon> team) {

@@ -1,6 +1,6 @@
 package Pokemon;
 
-public class TypeRock extends Pokemon{
+public abstract class TypeRock extends Pokemon{
     public TypeRock(int lvl, String nickName, String ability, String nature) {
         super(lvl, "Rock", nickName, ability, nature);
     }

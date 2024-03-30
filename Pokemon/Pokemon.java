@@ -1,6 +1,8 @@
 package Pokemon;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public abstract class Pokemon {
@@ -39,4 +41,12 @@ public abstract class Pokemon {
     }
 
     public abstract void Attack();
+
+    public void eatRandomItem() {
+        List<String> items = Arrays.asList("HP Up", "Protein", "Iron", "Calcium", "Zinc", "Carbos");
+        List<String> itemEffects = Arrays.asList("HP", "Attack", "Defence", "Sp. Attack", "Sp. Defence", "Speed");
+        int randomNum = (int) (Math.random() * ((5) + 1));
+
+        System.out.println(nickName + " the " + getClass().getSimpleName() + " ate " + items.get(randomNum) + " and raised it's base " + itemEffects.get(randomNum) + "!");
+    }
 }

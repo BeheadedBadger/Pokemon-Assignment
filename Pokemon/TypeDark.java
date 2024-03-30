@@ -1,6 +1,6 @@
 package Pokemon;
 
-public class TypeDark extends Pokemon{
+public abstract class TypeDark extends Pokemon{
 
     public TypeDark(int lvl, String nickName, String ability, String nature) {
         super(lvl, "Dark", nickName, ability, nature);
