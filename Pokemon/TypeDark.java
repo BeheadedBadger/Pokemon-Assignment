@@ -2,8 +2,8 @@ package Pokemon;
 
 public abstract class TypeDark extends Pokemon{
 
-    public TypeDark(int lvl, String nickName, String ability, String nature) {
-        super(lvl, "Dark", nickName, ability, nature);
+    public TypeDark(int lvl, String nickName, String ability, String nature, Boolean canEvolve) {
+        super(lvl, "Dark", nickName, ability, nature, canEvolve);
     }
 
     @Override

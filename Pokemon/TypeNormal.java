@@ -1,8 +1,8 @@
 package Pokemon;
 
 public abstract class TypeNormal extends Pokemon{
-    public TypeNormal(int lvl, String nickName, String ability, String nature) {
-        super(lvl, "Normal", nickName, ability, nature);
+    public TypeNormal(int lvl, String nickName, String ability, String nature, Boolean canEvolve) {
+        super(lvl, "Normal", nickName, ability, nature, canEvolve);
     }
 
     @Override

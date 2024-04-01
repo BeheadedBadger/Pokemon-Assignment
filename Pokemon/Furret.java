@@ -1,8 +1,8 @@
 package Pokemon;
 
-public class Furret extends TypeNormal {
+public class Furret extends Sentret {
 
-    public Furret(int lvl, String nickName, String ability, String nature) {
-        super(lvl, nickName, ability, nature);
+    public Furret(int lvl, String nickName, String ability, String nature, boolean canEvolve) {
+        super(lvl, nickName, ability, nature, canEvolve);
     }
 }

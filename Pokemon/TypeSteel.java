@@ -1,8 +1,8 @@
 package Pokemon;
 
 public abstract class TypeSteel extends Pokemon {
-    public TypeSteel(int lvl, String nickName, String ability, String nature) {
-        super(lvl, "Steel", nickName, ability, nature);
+    public TypeSteel(int lvl, String nickName, String ability, String nature, Boolean canEvolve) {
+        super(lvl, "Steel", nickName, ability, nature, canEvolve);
     }
 
     public void Attack() {

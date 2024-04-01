@@ -1,8 +1,8 @@
 package Pokemon;
 
 public abstract class TypeWater extends Pokemon {
-    public TypeWater(int lvl, String nickName, String ability, String nature) {
-        super(lvl, "Water", nickName, ability, nature);
+    public TypeWater(int lvl, String nickName, String ability, String nature, Boolean canEvolve) {
+        super(lvl, "Water", nickName, ability, nature, canEvolve);
     }
 
     @Override

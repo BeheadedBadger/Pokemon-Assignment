@@ -1,8 +1,8 @@
 package Pokemon;
 
 public abstract class TypeGrass extends Pokemon{
-    public TypeGrass(int lvl, String nickName, String ability, String nature) {
-        super(lvl, "Grass", nickName, ability, nature);
+    public TypeGrass(int lvl, String nickName, String ability, String nature, Boolean canEvolve) {
+        super(lvl, "Grass", nickName, ability, nature, canEvolve);
     }
 
     @Override
